@@ -1269,7 +1269,7 @@ footer {
     width: 100%;
     height: auto;
     position: relative;
-    background: url(../img/slide-item1.png) 100% no-repeat;
+    background: url(../img/slide-item1.png) no-repeat;
     background-size: cover; }
   .hd-area {
     width: 100%;
