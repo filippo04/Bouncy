@@ -1,0 +1,13 @@
+@font-face{
+    font-family:bj;
+    src: url(/fonts/BIGJOHN.otf);
+    font-family:os;
+    src: url(/fonts/OpenSans-light.ttf);
+    font-family:rb;
+    src: url(/fonts/RobotoRegular.ttf);
+    font-family:ss;
+    src: url(/fonts/SourceSansProLight.ttf);
+    font-family:mp;
+    src: url(/fonts/MyriadPro-Regular.otf);
+    
+   }
