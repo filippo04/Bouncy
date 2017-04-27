@@ -1269,7 +1269,7 @@ footer {
     width: 100%;
     height: auto;
     position: relative;
-    background: url(../img/slide-item1.png) no-repeat;
+    background: url(../img/slide-item1.png) 100% no-repeat;
     background-size: cover; }
   .hd-area {
     width: 100%;
@@ -1788,16 +1788,21 @@ footer {
     .h-item h2 {
       margin-top: 230px; }
   .au {
-    padding: 20px; }
+    padding: 20px;
+    width: 100%; }
   .aud {
-    padding: 20px; }
+    padding: 20px;
+    width: 100%; }
   .tab-content {
     width: 100%; }
-  .fw-footer h4 {
-    margin-bottom: 20px;
-    margin-right: 0; }
+  .fw-footer {
+    width: 100%; }
+    .fw-footer h4 {
+      margin-bottom: 20px;
+      margin-right: 0; }
   .os {
-    padding: 20px; }
+    padding: 20px;
+    width: 100%; }
   .os-area {
     width: 100%; }
   .os-left {
@@ -1805,8 +1810,10 @@ footer {
   .os-right {
     margin-left: 0;
     width: 99%; }
-  .tq-area span {
-    display: none; }
+  .tq-area {
+    width: 100%; }
+    .tq-area span {
+      display: none; }
   .tq-text {
     margin: 20px; }
   .p {
