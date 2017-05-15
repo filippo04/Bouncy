@@ -126,13 +126,13 @@ header {
     top: -80px;
     z-index: 1;
     position: relative;
-    background: url(../img/slide-item1.png) 100% no-repeat;
+    background: url(/img/slide-item1.png) 100% no-repeat;
     background-size: cover;
 }
 
 .item-hover {
     position: absolute;
-    background: url(../img/HOVER.png) no-repeat;
+    background: url(/img/HOVER.png) no-repeat;
     width: 36px;
     height: 36px;
     display: none;
@@ -309,7 +309,7 @@ li.active a {
         width: 35%;
         height: auto;
         display: inline-block;
-        background: url(../img/fw-item2.png) 50% no-repeat;
+        background: url(/img/fw-item2.png) 50% no-repeat;
         background-size: cover;
         span {
             width: 100%;
@@ -328,7 +328,7 @@ li.active a {
         }
     }
     li:first-child {
-        background: url(../img/fw-item.png) 50% no-repeat;
+        background: url(/img/fw-item.png) 50% no-repeat;
         background-size: cover;
         width: 60%;
         span {
@@ -336,7 +336,7 @@ li.active a {
         }
     }
     li:last-child {
-        background: url(../img/fw-item4.png) 100% no-repeat;
+        background: url(/img/fw-item4.png) 100% no-repeat;
         background-size: cover;
     }
     li:hover {
@@ -351,7 +351,7 @@ li.active a {
 }
 
 .fw-footer {
-    background: url(../img/fw-footer.png) no-repeat;
+    background: url(/img/fw-footer.png) no-repeat;
     background-size: cover;
     padding: 40px 0;
     h4 {
@@ -437,15 +437,15 @@ li.active a {
 }
 
 .c1 {
-    background: url(../img/circle80.png) no-repeat;
+    background: url(/img/circle80.png) no-repeat;
 }
 
 .c2 {
-    background: url(../img/circle75.png) no-repeat;
+    background: url(/img/circle75.png) no-repeat;
 }
 
 .c3 {
-    background: url(../img/circle60.png) no-repeat;
+    background: url(/img/circle60.png) no-repeat;
 }
 
 .os-tabs {
@@ -491,7 +491,7 @@ li.active a {
 }
 
 .tq {
-    background: url(../img/tq-bg.png) no-repeat;
+    background: url(/img/tq-bg.png) no-repeat;
     background-size: cover;
     width: 100%;
     padding: 80px 0 100px;
@@ -502,7 +502,7 @@ li.active a {
     justify-content: space-between;
     span {
         margin-top: -120px;
-        background: url(../img/tv-tq.png) 100% no-repeat;
+        background: url(/img/tv-tq.png) 100% no-repeat;
         font-family: bj, sans-serif;
         font-size: $ttz + 10;
         font-weight: 700;
@@ -591,7 +591,7 @@ li.active a {
     }
     li.active {
         padding: 0 0 49px 0;
-        background: url(../img/lineh.png) 50% no-repeat;
+        background: url(/img/lineh.png) 50% no-repeat;
     }
 }
 
@@ -600,7 +600,7 @@ li.active a {
     padding: 3px;
     width: 100%;
     height: 2px;
-    background: url(../img/lineh.png) 50% no-repeat;
+    background: url(/img/lineh.png) 50% no-repeat;
     display: none;
     position: absolute;
 }
@@ -620,7 +620,7 @@ li.active a {
             height: 100%;
         }
         span {
-            background: url(../img/phover.png) repeat;
+            background: url(/img/phover.png) repeat;
             width: 100%;
             height: 100%;
             display: none;
@@ -647,7 +647,7 @@ li.active a {
                 margin-bottom: 20px;
             }
             a {
-                background: url(../img/hover-link.png) no-repeat;
+                background: url(/img/hover-link.png) no-repeat;
                 width: 29px;
                 height: 29px;
                 margin-right: 10px;
@@ -655,7 +655,7 @@ li.active a {
                 display: inline-block;
             }
             a:last-child {
-                background: url(../img/hover-like.png) no-repeat;
+                background: url(/img/hover-like.png) no-repeat;
                 width: 29px;
                 height: 29px;
                 margin: 0;
@@ -701,7 +701,7 @@ li.active a {
 .p-c {
     display: block;
     height: auto;
-    background: url(../img/p-c-bg.png) 100% no-repeat;
+    background: url(/img/p-c-bg.png) 100% no-repeat;
     background-size: cover;
     text-align: center;
     padding: 60px 0;
@@ -828,7 +828,7 @@ li.active a {
 }
 
 .tc {
-    background: url(../img/tc-bg.png) 100% no-repeat;
+    background: url(/img/tc-bg.png) 100% no-repeat;
     background-size: cover;
     padding: 60px 0;
     margin: 0 auto;
@@ -918,7 +918,7 @@ li.active a {
 }
 
 .b {
-    background: url(../img/b-bg.png) no-repeat;
+    background: url(/img/b-bg.png) no-repeat;
     background-size: cover;
     padding: 75px 0 100px 0;
     width: 100%;
@@ -1135,7 +1135,7 @@ li.active a {
 
 .s {
     width: 100%;
-    background: url(../img/s-bg.png) 100% no-repeat;
+    background: url(/img/s-bg.png) 100% no-repeat;
     background-size: cover;
     padding: 80px 0 100px;
     text-align: center;
@@ -1216,7 +1216,7 @@ li.active a {
     padding-bottom: 30px;
     text-align: center;
     img {
-        background: url(../img/address-bg.png) no-repeat;
+        background: url(/img/address-bg.png) no-repeat;
         padding: 48px 125px;
         margin-bottom: 30px;
         background-size: cover;
@@ -1241,11 +1241,11 @@ li.active a {
 
 .cai:first-child img {
     padding: 60px 120px;
-    background: url(../img/bg-mail.png) no-repeat;
+    background: url(/img/bg-mail.png) no-repeat;
 }
 
 .cai:last-child img {
-    background: url(../img/phone-bg.png) no-repeat;
+    background: url(/img/phone-bg.png) no-repeat;
     padding: 50px 120px;
 }
 
@@ -1343,19 +1343,19 @@ footer {
         margin: 0 auto;
     }
     a:nth-child(1) {
-        background: url(../img/facebook.png) no-repeat;
+        background: url(/img/facebook.png) no-repeat;
     }
     a:nth-child(2) {
-        background: url(../img/twitter.png) no-repeat;
+        background: url(/img/twitter.png) no-repeat;
     }
     a:nth-child(3) {
-        background: url(../img/linkedin.png) no-repeat;
+        background: url(/img/linkedin.png) no-repeat;
     }
     a:nth-child(4) {
-        background: url(../img/instagramm.png) no-repeat;
+        background: url(/img/instagramm.png) no-repeat;
     }
     a:nth-child(5) {
-        background: url(../img/vimeo.png) no-repeat;
+        background: url(/img/vimeo.png) no-repeat;
     }
 }
 
@@ -1364,7 +1364,7 @@ footer {
         width: 100%;
         height: auto;
         position: relative;
-        background: url(../img/slide-item1.png) 100% no-repeat;
+        background: url(/img/slide-item1.png) 100% no-repeat;
         background-size: cover;
     }
     .hd-area {
@@ -1477,7 +1477,7 @@ footer {
     .os_tabs_item {
         text-align: left;
         width: 100%;
-        margin: 10px;
+        margin: 0;
         p {
             width: 90%;
             margin: 10px;
@@ -1527,7 +1527,7 @@ footer {
     }
     .p {
         width: 100%;
-        padding: 20px;
+        padding:20px 0;
         background: #f3f3f3;
     }
     .p-area {
@@ -1547,7 +1547,7 @@ footer {
     }
     .tabs__caption {
         margin-bottom: 60px;
-        height: 200px;
+        height: auto;
         li {
             cursor: pointer;
             width: 70px;
@@ -1575,9 +1575,10 @@ footer {
         overflow: hidden;
     }
     .p-c {
+        width: 100%;
         display: block;
         height: auto;
-        background: url(../img/p-c-bg.png) 100% no-repeat;
+        background: url(/img/p-c-bg.png) 100% no-repeat;
         text-align: center;
         padding: 60px 0;
         h2 {
@@ -1669,7 +1670,7 @@ footer {
     }
     .tt {
         background: #f3f3f3;
-        padding: 50px;
+        padding: 15px;
         text-align: center;
         h2 {
             @include title;
@@ -1699,15 +1700,27 @@ footer {
         }
     }
     .b{
-        height: auto;
+        height: 800px;
+        padding: 0;
+    }
+    .b-indicators{
+        position: absolute;
+        left: 45%;
+        top: 100%;
+        li{
+            display: inline-block;
+        }
+        li.active{
+                display: inline-block;
+            }
     }
     .b-area {
-        width: 90%;
+        width: 95%;
         height: auto;
     }
     .b-slide {
-        margin: 20px;
-        width: 90%;
+        margin: 0;
+        width: 95%;
         height: auto;
         h2 {
             font-family: os, sans-serif;
@@ -1755,6 +1768,7 @@ footer {
     }
 }
     .b-slide-area {
+        height: 750px;
     video {
         width: 90%;
     }
@@ -1864,6 +1878,10 @@ footer {
     }
     .cu-form {
         width: 90%;
+        input{
+            display: block;
+            width: 100%;
+        }
     }
     .cu-area-items {
         width: 100%;
@@ -1880,7 +1898,7 @@ footer {
         margin: 0 auto;
         margin-bottom: 20px;
         img {
-            background: url(../img/address-bg.png) no-repeat;
+            background: url(/img/address-bg.png) no-repeat;
             padding-left: 40%;
             padding-top: 45%;
             margin-bottom: 30px;
@@ -1907,13 +1925,13 @@ footer {
         display: none;
     }
     .cai:first-child img {
-        background: url(../img/bg-mail.png) no-repeat;
+        background: url(/img/bg-mail.png) no-repeat;
         padding: 40%;
         margin-bottom: 30px;
         background-size: cover;
     }
     .cai:last-child img {
-        background: url(../img/phone-bg.png) no-repeat;
+        background: url(/img/phone-bg.png) no-repeat;
         padding-left: 40%;
         padding-top: 45%;
         margin-bottom: 30px;
@@ -1940,17 +1958,14 @@ footer {
     }
     .au {
         padding: 20px;
-        width: 100%;
     }
     .aud {
         padding: 20px;
-        width: 100%;
     }
     .tab-content {
         width: 100%;
     }
     .fw-footer {
-        width: 100%;
         h4 {
             margin-bottom: 20px;
             margin-right: 0;
@@ -1958,7 +1973,6 @@ footer {
     }
     .os {
         padding: 20px;
-        width: 100%;
     }
     .os-area {
         width: 100%;
@@ -1971,7 +1985,6 @@ footer {
         width: 99%;
     }
     .tq-area {
-        width: 100%;
         span {
             display: none;
         }
@@ -2051,7 +2064,7 @@ footer {
     .cai {
         width: 30%;
         img {
-            background: url(../img/address-bg.png) no-repeat;
+            background: url(/img/address-bg.png) no-repeat;
             padding-left: 42%;
             margin-bottom: 30px;
             background-size: cover;
@@ -2059,10 +2072,10 @@ footer {
     }
     .cai:first-child img {
         padding-left: 40%;
-        background: url(../img/bg-mail.png) no-repeat;
+        background: url(/img/bg-mail.png) no-repeat;
     }
     .cai:last-child img {
-        background: url(../img/phone-bg.png) no-repeat;
+        background: url(/img/phone-bg.png) no-repeat;
         padding-left: 40%;
     }
     .hover-map {
